@@ -10,6 +10,7 @@ package com.mycompany.midterm.exam;
  */
 public class ProductManager {
     
+    // Calculates discounted price based on original price and discount percentage.
     public double calculateDiscount(double price, double percent) {
         return price - (price * percent / 100.0);
     }
